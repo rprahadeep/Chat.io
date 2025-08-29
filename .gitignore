@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+server/node_modules/
+
+# Build outputs
+.next/
+frontend/.next/
+server/.next/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*
+frontend/.env
+frontend/.env.local
+server/.env
+server/.env.local
+
+# Cache
+.cache/
+.next/cache/
+frontend/.next/cache/
+server/.next/cache/
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Prisma
+prisma/migrations/.DS_Store
+
+# Coverage reports
+coverage/
+
+# Temporary
+*.tmp
